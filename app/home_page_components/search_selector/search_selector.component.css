@@ -1,0 +1,20 @@
+.navbar-default .navbar-nav>.active>a:before,
+.navbar-nav>li>a:before {
+    background-repeat: no-repeat;
+    background-position: 0 top;
+    content: "";
+    display: inline-block;
+    height: 29px;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 29px;
+}
+
+.navbar-default .navbar-nav>.active>a.home:before,
+.navbar-nav>li>a.home:before { background-image: url('https://dl.dropboxusercontent.com/sh/0be3c7ub4245kd6/18Xnfucw14/home.png'); }
+
+.navbar-default .navbar-nav>.active>a.about:before,
+.navbar-nav>li>a.about:before {  background-image: url('https://dl.dropboxusercontent.com/sh/0be3c7ub4245kd6/DhXiON5YiL/kveld.png'); }
+
+.navbar-default .navbar-nav>.active>a.contact:before,
+.navbar-nav>li>a.contact:before {  background-image: url('https://dl.dropboxusercontent.com/sh/0be3c7ub4245kd6/_fidqgglaS/sol.png'); }
